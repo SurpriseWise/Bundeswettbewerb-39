@@ -1,0 +1,27 @@
+using System;
+
+static void main(){
+
+    //Console.WriteLine("hey");
+    //Txt einlesen (Read com) ohne anfangs zahlen, grenzen auslesen
+    //ab erreichen des X checken
+    //felder daneben ergeben einen baulwurfbau oder nicht
+    //count +1 
+    //ausgabe wieviele Bäue es gibt
+
+    string[] parameter = new string[2];
+    parameter = System.IO.File.ReadAllLines(@"C:\Txt für Baulwurf\karte0.txt");
+    //parameter = 
+    string[,] lines = new string[int(parameter[0]), int(parameter[1])];
+
+    //string[,] lines = System.IO.File.ReadAllLines(@"C:\Txt für Baulwurf\karte0.txt");
+
+   //Console.WriteLine(lines[1, 1]);
+
+
+
+
+
+
+}
+main();
